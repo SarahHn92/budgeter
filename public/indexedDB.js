@@ -32,7 +32,7 @@ function checkDatabase() {
 
     // If request successful, fetch json data and add to online db
     getAll.onsuccess = function () {
-        if getAll.result.length > 0 {
+        if (getAll.result.length > 0) {
             fetch('/api/transaction/bulk', {
                 method: 'POST',
                 body: JSON.stringify(getAll.result),
