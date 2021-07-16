@@ -15,3 +15,16 @@ request.onupgradeneeded = function (e) {
         db.createObjectStore('budgetStore', { autoIncrement: true });
     }
 };
+
+// catching errors
+request.onerror = function (e) {
+    console.log(`${e.target.errorCode}`);
+};
+
+// Open and access a transaction in the db
+let transaction = db.transaction(['budgetStore'], 'readwrite');
+
+const store = transaction.objectStore('budgetStore');
+
+// Getting all records from objectStore
+const getAll = store.getAll();
