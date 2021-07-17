@@ -1,10 +1,12 @@
 ## Budgeter
+![](https://img.shields.io/badge/License-MIT-lightgreen)
 
 ### Link:
 [Budgeter on Heroku](https://shielded-anchorage-02318.herokuapp.com/)
 
-  ![](https://img.shields.io/badge/License-MIT-lightgreen)
-
+## Screenshot
+![Project screenshot](/assets/untitled.png)
+  
   ## Table of Contents
    
    [ - Description](#description)
