@@ -5,7 +5,7 @@
 [Budgeter on Heroku](https://shielded-anchorage-02318.herokuapp.com/)
 
 ## Screenshot
-![Project screenshot](./assets/untitled.png)
+![Project screenshot](.\assets\Screenshot.png)
   
   ## Table of Contents
    
